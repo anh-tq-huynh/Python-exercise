@@ -1,7 +1,7 @@
-year = int(input("Enter a year: "))
+num1 = int(input('Enter the 1st number: '))
+num2 = int(input('Enter the 2nd number: '))
+num3 = int(input('Enter the 3rd number: '))
 
-if year % 4 == 0 or (year % 100 == 0 and year % 400 == 0):
-    print (f'{year} is a leap year')
-
-else:
-    print(f'{year} is not a leap year')
+print(f' The sum of the numbers is: {num1+num2+num3}')
+print(f' The product of the numbers is: {num1*num2*num3}')
+print(f' The average of the number is: {(num1+num2+num3)/3:.3}')

@@ -1,15 +1,5 @@
-cabin = input('Please enter your cabin class (LUX/A/B/C): ')
-if cabin == "LUX":
-    print('Upper-deck cabbin with a balcony')
+import math
 
-elif cabin == "A":
-    print('Above the car deck, equipped with a window')
-
-elif cabin == "B":
-    print('Windowless cabin above the car deck')
-
-elif cabin == "C":
-    print ('Windowless cabin below the car deck')
-
-else:
-    print('Invalid cabin class entered')
+radius = float(input("Enter the radius of the circle: "))
+area = math.pi * radius**2
+print("The area of the circle is:", area)
