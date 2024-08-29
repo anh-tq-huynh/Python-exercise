@@ -6,4 +6,4 @@ total_lot = (talent * 20 + pound)* 32
 gram = total_lot * 13.3
 
 kilogram = gram // 1000
-print(f'The weight in modern unit is: {kilogram:.0f} kilograms and {gram - (kilogram * 1000):.2f}')
+print(f'The weight in modern unit is: {kilogram:.0f} kilograms and {gram - (kilogram * 1000):.2f} gram')
