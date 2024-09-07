@@ -1,19 +1,19 @@
 numbers = []
-num = input('Enter a number:')
-numbers.append(num)
-times = 1
-"""
-while num != "":
-    times += 1
-    num = input('Enter another number, if you are done, press enter: ')
-    numbers.append(num)
-"""
+num = ""
+
 while True:
-     times += 1
-     num = input('Enter another number, if you are done, press enter: ')
-     numbers.append(num)
-     if num == "" and times > 4:
-         break
+    num = input("Enter a number, press enter to stop:")
+    if num != "":
+        numbers.append(float(num))
+
+    if num == "" and len(numbers) > 4:
+        break
 
 numbers.sort(reverse=True)
+
+list = []
+for i in range(0,5):
+    list.append(numbers[i])
+
+print('Largest 5 numbers are:',list)
 
