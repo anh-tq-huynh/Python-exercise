@@ -20,5 +20,5 @@ def retrieve_airport(icao_code):
             print(f'The airport with {icao_code} is {row[0]} in {row[1]}')
     return
 
-icao_input = input('What is the ICAO code you are looking for? - ')
+icao_input = input('What is the ICAO code you are looking for? - ').upper()
 retrieve_airport(icao_input)
