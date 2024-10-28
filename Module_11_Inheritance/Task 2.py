@@ -23,9 +23,6 @@ class ElectricCar(Car):
         super().__init__(registration_num, max_speed)
         self.battery_capacity = battery_capacity
 
-    def accelerate(self, speed):
-        super().accelerate(speed)
-
     def drive(self, time):
         super().drive(time)
 
@@ -33,9 +30,6 @@ class GasolineCar(Car):
     def __init__(self, registration_num : str, max_speed, tank_volume):
         super().__init__(registration_num, max_speed)
         self.tank_volume = tank_volume
-
-    def accelerate(self, speed):
-        super().accelerate(speed)
 
     def drive(self, time):
         super().drive(time)
