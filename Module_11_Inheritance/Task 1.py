@@ -23,6 +23,7 @@ class Magazine(Publication):
     def print_information(self):
         super().print_information()
         print(f"Magazine {self.name}'s chief editor is {self.chief_editor}\n")
+        
 
 book1 = Book("Compartment No. 6","Rosa Liksom", 192)
 book1.print_information()
