@@ -7,7 +7,7 @@ def prime_number(number):
     try:
         count = 0
         for num in range(1,number+1):
-            if num%2 == 0:
+            if number%num == 0:
                 count += 1
         if count == 2:
             response = [
